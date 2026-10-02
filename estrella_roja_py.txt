@@ -1,0 +1,15 @@
+import re, os, json, random, string, types, hashlib, base64, time, sys
+from faker import Faker
+from colorama import Fore, Style, init
+from curl_cffi import requests as curl
+from concurrent.futures import ThreadPoolExecutor
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
+
+init(autoreset=True)
+
+class Core:
+    SITE_URL      = 'https://apicloud.estrellaroja.com.mx'
+    AUTH_URL      = 'https://apicloud.estrellaroja.com.mx/authenticate/auth'
+    ...
+    # Todo el código que me diste para la clase Core aquí, idéntico
