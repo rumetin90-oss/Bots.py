@@ -8,7 +8,7 @@ from colorama import init
 init(autoreset=True)
 fake = Faker('es_MX')
 
-TELEGRAM_TOKEN = 'TU_TOKEN_TELEGRAM_AQUI'
+TELEGRAM_TOKEN = '8375866730:AAFgF-MmL7CdYaeLgl0Y2v7DKXRCGm-fYzk'
 bot = telebot.TeleBot(TELEGRAM_TOKEN, threaded=True, num_threads=10)
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
